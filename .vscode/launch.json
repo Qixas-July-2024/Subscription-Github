@@ -6,7 +6,7 @@
             "request": "launch",
             "name": "Localhost",
             "server": "http://localhost",
-            "serverInstance": "BC230",
+            "serverInstance": "BC240",
             "authentication": "Windows",
             "breakOnError": true,
             "launchBrowser": true,
