@@ -1,0 +1,3 @@
+*.app
+*.xlf
+.vscode/.alcache/cache*.*

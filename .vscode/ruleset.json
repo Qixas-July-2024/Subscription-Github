@@ -1,0 +1,36 @@
+{
+    "name": "BAC ruleset",
+    "description": "General ruleset for the BAC Project.",
+    "rules": [
+        {
+            "id": "AA0215",
+            "action": "None",
+            "justification": "Rule removed for naming convension"
+        },
+        {
+            "id": "AA0072",
+            "action": "None",
+            "justification": "Rule removed for naming convension"
+        },
+        {
+            "id": "AA0074",
+            "action": "None",
+            "justification": "Rule removed for naming convension"
+        },
+        {
+            "id": "AA0240",
+            "action": "None",
+            "justification": "Rule removed for naming convension"
+        },
+        {
+            "id": "AL0603",
+            "action": "None",
+            "justification": "Conversion between Enum and integer in Base Application"
+        },
+        {
+            "id": "N0301",
+            "action": "None",
+            "justification": "Object Ninja suppress message"
+        }
+    ]
+}
