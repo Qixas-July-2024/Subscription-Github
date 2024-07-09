@@ -5,7 +5,7 @@
             "type": "al",
             "request": "launch",
             "name": "Localhost",
-            "server": "http://localhost",
+            "server": "http://localhost:8080/BC240",
             "serverInstance": "BC240",
             "authentication": "Windows",
             "breakOnError": true,
