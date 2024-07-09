@@ -43,7 +43,16 @@ pageextension 50100 "BCT BusinessManager RC Ext" extends "Business Manager Role 
                     RunObject = page VNI_TestList;
                     ToolTip = 'Random TOoltip';
                 }
+                action(PBATest)
+                {
+                    Caption = 'PBA Test';
+                    ToolTip = 'PBA Test';
+                    ApplicationArea = All;
+                    Image = List;
+                    RunObject = page "BCT PBA Test List";
+                }
             }
         }
     }
 }
+//Awesome code - n'est pas?
