@@ -35,6 +35,14 @@ pageextension 50100 "BCT BusinessManager RC Ext" extends "Business Manager Role 
                     RunObject = report "BCT Subscription Customers";
                     ApplicationArea = All;
                 }
+                action(VNI_Test)
+                {
+                    Image = OpenJournal;
+                    ApplicationArea = All;
+                    Caption = 'VNI TEST';
+                    RunObject = page VNI_TestList;
+                    ToolTip = 'Random TOoltip';
+                }
             }
         }
     }
