@@ -47,3 +47,4 @@ pageextension 50100 "BCT BusinessManager RC Ext" extends "Business Manager Role 
         }
     }
 }
+//Awesome code - n'est pas?
