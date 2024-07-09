@@ -16,11 +16,11 @@ codeunit 50102 "BCT SubscriptionInstall"
 
     local procedure LVV_Test()
     var
-        MyRec: Record Customer_Subscription;
+        MyRec: Record Customer;
     begin
         MyRec.Init();
-        MyRec.Code := 'LVV';
-        MyRec.Description := 'Lidia';
+        MyRec."No." := 'LVV';
+        MyRec.Name := 'Lidia';
         MyRec.Insert();
     end;
 }
