@@ -35,6 +35,14 @@ pageextension 50100 "BCT BusinessManager RC Ext" extends "Business Manager Role 
                     RunObject = report "BCT Subscription Customers";
                     ApplicationArea = All;
                 }
+                action(PBATest)
+                {
+                    Caption='PBA Test';
+                    ToolTip='PBA Test';
+                    ApplicationArea = All;
+                    Image = List;
+                    RunObject = page "BCT PBA Test List";
+                }
             }
         }
     }
