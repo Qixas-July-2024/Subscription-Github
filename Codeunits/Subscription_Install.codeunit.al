@@ -5,7 +5,7 @@ codeunit 50102 "BCT SubscriptionInstall"
     trigger OnInstallAppPerCompany();
     begin
         // Instantiate variables needed for the extension
-        //Hello World
+        //Hello Miss World
     end;
 
     trigger OnInstallAppPerDatabase();
