@@ -3,10 +3,17 @@ codeunit 50102 "BCT SubscriptionInstall"
     Subtype = Install;
 
     trigger OnInstallAppPerCompany();
+    var
+        UpgTag: Codeunit "Upgrade Tag";
     begin
         // Instantiate variables needed for the extension
         //Hello Miss World
         PBA_Test_Lab_4();
+        // Create the table
+        if not UpgTag.HasUpgradeTag(GSTAG) then begin
+            UpgTag.SetUpgradeTag(GSTAG);
+            CreateGSTag();
+        end;
     end;
 
     trigger OnInstallAppPerDatabase();
@@ -28,4 +35,16 @@ codeunit 50102 "BCT SubscriptionInstall"
             PbaTest.Insert();
         end;
     end;
+
+    local procedure CreateGSTag()
+    var
+        GSTest: Record "GS Test";
+    begin
+        GSTest.Init();
+        GSTest.Code := 'GS';
+        GSTest.Description := 'Godwin';
+    end;
+
+    var
+        GSTAG: Label 'GSTest', Locked = true;
 }
