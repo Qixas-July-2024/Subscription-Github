@@ -82,6 +82,10 @@ table 50101 "BCT Customer Subscription"
         {
             Caption = 'Allow Line Discount';
         }
+        field(50200; LVV_Test; Text[50])
+        {
+            DataClassification = ToBeClassified;
+        }
     }
 
     keys
